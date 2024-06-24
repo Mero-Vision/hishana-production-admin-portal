@@ -11,7 +11,7 @@
     <link type="text/css" rel="stylesheet" href="{{ url('assets/css/login/flaticon.css') }}">
 
     <!-- Favicon icon -->
-    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ url('assets/img/logo.png') }}" type="image/x-icon">
 
     <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap"
@@ -66,7 +66,7 @@
                                 <div class="form-group mb-0">
                                     <button type="submit" class="btn-md btn-theme w-100">Login</button>
                                 </div>
-                                <p class="text">Don't have an account?<a href="register-8.html"> Register here</a></p>
+                               
                             </form>
                         </div>
                     </div>
