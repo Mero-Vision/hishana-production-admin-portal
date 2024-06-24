@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <title>Hishana Productions | Admin Portal Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <!-- External CSS libraries -->
+    <link type="text/css" rel="stylesheet" href="{{url('assets/css/login/bootstrap.min.css')}}">
+    <link type="text/css" rel="stylesheet" href="{{url('assets/css/login/font-awesome.min.css')}}">
+    <link type="text/css" rel="stylesheet" href="{{url('assets/css/login/flaticon.css')}}">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" >
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link type="text/css" rel="stylesheet" href="{{url('assets/css/login/login_style.css')}}">
+
+</head>
+<body id="top">
+<div class="page_loader"></div>
+
+<!-- Login 8 start -->
+<div class="login-8">
+    <div class="container">
+        <div class="row login-box">
+            <div class="col-lg-7 col-md-12 form-info">
+                <div class="form-section">
+                    <div class="logo clearfix">
+                        <a href="login-8.html">
+                            <img src="assets/img/logos/logo-2.png" alt="logo">
+                        </a>
+                    </div>
+                    <h3>Sign Into Your Account</h3>
+                    <div class="login-inner-form">
+                        <form action="#" method="GET">
+                            <div class="form-group form-box">
+                                <input type="email" name="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                                <i class="flaticon-mail-2"></i>
+                            </div>
+                            <div class="form-group form-box">
+                                <input type="password" name="password" class="form-control" autocomplete="off" placeholder="Password" aria-label="Password">
+                                <i class="flaticon-password"></i>
+                            </div>
+                            <div class="checkbox form-group form-box">
+                                <div class="form-check checkbox-theme">
+                                    <input class="form-check-input" type="checkbox" value="" id="rememberMe">
+                                    <label class="form-check-label" for="rememberMe">Remember me</label>
+                                </div>
+                                <a href="forgot-password-8.html">Forgot Password</a>
+                            </div>
+                            <div class="form-group mb-0">
+                                <button type="submit" class="btn-md btn-theme w-100">Login</button>
+                            </div>
+                            <p class="text">Don't have an account?<a href="register-8.html"> Register here</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12 bg-img">
+                <div class="info">
+                    <div class="btn-section clearfix">
+                        <a href="login-8.html" class="link-btn active btn-1 default-bg">Login</a>
+                        <a href="register-8.html" class="link-btn btn-1">Register</a>
+                    </div>
+                    <div class="info-text">
+                        <div class="waviy">
+                            <span style="--i:1">W</span>
+                            <span style="--i:2">e</span>
+                            <span style="--i:3">l</span>
+                            <span style="--i:4">c</span>
+                            <span style="--i:5">o</span>
+                            <span style="--i:6">m</span>
+                            <span style="--i:7">e</span>
+                            <span class="color-yellow" style="--i:8">t</span>
+                            <span class="color-yellow" style="--i:9">o</span>
+                            <span style="--i:10">o</span>
+                            <span style="--i:11">d</span>
+                            <span style="--i:12">d</span>
+                            <span style="--i:13">o</span>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when</p>
+                    </div>
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" class="facebook-bg">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter-bg">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="google-bg">
+                                <i class="fa fa-google"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="linkedin-bg">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="pinterest-bg">
+                                <i class="fa fa-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Login 8 end -->
+
+
+<script src="{{url('assets/js/login/jquery-3.6.0.min.js')}}"></script>
+<script src="{{url('assets/js/login/bootstrap.bundle.min.js')}}"></script>
+<script src="{{url('assets/js/login/jquery.validate.min.js')}}"></script>
+<script src="{{url('assets/js/login/app.js')}}"></script>
+
+</body>
+</html>
