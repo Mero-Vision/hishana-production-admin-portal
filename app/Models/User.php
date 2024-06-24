@@ -14,13 +14,17 @@ class User extends Authenticatable
     use HasFactory, Notifiable;
     use HasRoles;
     use HasApiTokens;
-
+    
+    const SUPERADMIN = 'superadmin';
     /**
      * The attributes that are mass assignable.
      *
      * @var array<int, string>
      */
-  
+    protected function getDefaultGuardName(): string
+    {
+        return 'api';
+    }
 
     /**
      * The attributes that should be hidden for serialization.
