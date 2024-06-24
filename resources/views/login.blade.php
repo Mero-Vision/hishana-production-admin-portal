@@ -62,10 +62,7 @@
             </div>
             <div class="col-lg-5 col-md-12 bg-img">
                 <div class="info">
-                    <div class="btn-section clearfix">
-                        <a href="login-8.html" class="link-btn active btn-1 default-bg">Login</a>
-                        <a href="register-8.html" class="link-btn btn-1">Register</a>
-                    </div>
+                   
                     <div class="info-text">
                         <div class="waviy">
                             <span style="--i:1">W</span>
@@ -76,11 +73,16 @@
                             <span style="--i:6">m</span>
                             <span style="--i:7">e</span>
                             <span class="color-yellow" style="--i:8">t</span>
-                            <span class="color-yellow" style="--i:9">o</span>
-                            <span style="--i:10">o</span>
-                            <span style="--i:11">d</span>
-                            <span style="--i:12">d</span>
-                            <span style="--i:13">o</span>
+                            <span class="color-yellow" style="--i:9">o</span><br>
+                            <span style="--i:10">H</span>
+                            <span style="--i:11">i</span>
+                            <span style="--i:12">s</span>
+                            <span style="--i:13">h</span>
+                            <span style="--i:13">a</span>
+                            <span style="--i:13">n</span>
+                            <span style="--i:13">a</span>
+
+
                         </div>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when</p>
                     </div>
