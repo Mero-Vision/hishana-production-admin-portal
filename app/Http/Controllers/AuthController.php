@@ -22,7 +22,6 @@ class AuthController extends Controller
         try {
             if (Auth::attempt($credential)) {
                 $user = Auth::user();
-                Session::put('user_id', $user->id);
                 if ($user->role == 'admin') {
 
                     sweetalert()->addSuccess('Welcome ' . $user->name);
