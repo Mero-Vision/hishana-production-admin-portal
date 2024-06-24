@@ -22,7 +22,7 @@ class AuthController extends Controller
         try {
             if (Auth::attempt($credential)) {
                 $user = Auth::user();
-                if ($user->role == 'admin') {
+                if ($user->role == 'superadmin') {
 
                     sweetalert()->addSuccess('Welcome ' . $user->name);
                     return redirect('admin/dashboard');
@@ -33,7 +33,6 @@ class AuthController extends Controller
                 }
             } else {
                 sweetalert()->addWarning('Invalid email or password.');
-
                 return back();
             }
         } catch (\Exception $e) {
