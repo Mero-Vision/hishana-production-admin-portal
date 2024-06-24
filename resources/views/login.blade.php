@@ -29,9 +29,9 @@
         <div class="row login-box">
             <div class="col-lg-7 col-md-12 form-info">
                 <div class="form-section">
-                    <div class="logo clearfix">
-                        <a href="login-8.html">
-                            <img src="assets/img/logos/logo-2.png" alt="logo">
+                    <div class=" clearfix">
+                        <a href="">
+                            <img src="{{url('assets/img/logo.png')}}" alt="logo" style="width: 100px">
                         </a>
                     </div>
                     <h3>Sign Into Your Account</h3>
