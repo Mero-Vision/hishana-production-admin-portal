@@ -36,7 +36,7 @@
                                 <img src="{{ url('assets/img/logo.png') }}" alt="logo" style="width: 100px">
                             </a>
                         </div>
-                        <h3>Sign Into Your Account</h3>
+                        <h3>Login Into Your Account</h3>
                         <div class="login-inner-form">
                             <form action="{{ url('login') }}" method="POST">
                                 @csrf
