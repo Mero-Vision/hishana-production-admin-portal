@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -14,4 +15,5 @@ Route::group(['middleware'=>'auth','prefix'=>'admin'],function(){
     Route::get('logout', [LoginController::class, 'logout']);
 
     Route::get('dashboard', [DashboardController::class, 'index']);
+    Route::get('profile', [UserController::class, 'profile']);
 });

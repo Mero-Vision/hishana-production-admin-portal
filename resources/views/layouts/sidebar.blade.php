@@ -10,7 +10,7 @@
                            Dashboard</span></a>
 
                 </li>
-                <li class="{{ request()->is('admin/users*') ? 'active' : '' }}">
+                {{-- <li class="{{ request()->is('admin/users*') ? 'active' : '' }}">
                     <a href="{{ url('admin/users') }}"><i class='bx bxs-user'></i> <span> User Management</span></a>
 
                 </li>
@@ -146,7 +146,7 @@
                 <li class="{{ request()->is('admin/settings*') ? 'active' : '' }}">
                     <a href="{{ url('admin/settings/general-settings') }}"><i class="fas fa-cog"></i>
                         <span>Settings</span></a>
-                </li>
+                </li> --}}
 
 
             </ul>
