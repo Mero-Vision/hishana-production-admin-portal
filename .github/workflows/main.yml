@@ -17,7 +17,7 @@ jobs:
         username: ${{ secrets.USER }}
         password: ${{ secrets.PASSWORD }}
         script: |
-          cd /home/merovision/domains/hishana.com/public_html/
+          cd /home/hishana/domains/adminportal.hishana.com/public_html
           git pull origin main
           composer install
           php artisan migrate --force
