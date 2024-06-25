@@ -5,27 +5,18 @@
     <title>Hishana Productions | Admin Portal Login</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <!-- External CSS libraries -->
     <link type="text/css" rel="stylesheet" href="{{ url('assets/css/login/bootstrap.min.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ url('assets/css/login/font-awesome.min.css') }}">
     <link type="text/css" rel="stylesheet" href="{{ url('assets/css/login/flaticon.css') }}">
-
-    <!-- Favicon icon -->
     <link rel="shortcut icon" href="{{ url('assets/img/logo.png') }}" type="image/x-icon">
-
-    <!-- Google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-
-    <!-- Custom Stylesheet -->
     <link type="text/css" rel="stylesheet" href="{{ url('assets/css/login/login_style.css') }}">
 
 </head>
 
 <body id="top">
     <div class="page_loader"></div>
-
-    <!-- Login 8 start -->
     <div class="login-8">
         <div class="container">
             <div class="row login-box">
@@ -132,9 +123,6 @@
             </div>
         </div>
     </div>
-    <!-- Login 8 end -->
-
-
     <script src="{{ url('assets/js/login/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ url('assets/js/login/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ url('assets/js/login/jquery.validate.min.js') }}"></script>
