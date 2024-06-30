@@ -41,7 +41,7 @@
                     <div class="col-lg-3 col-md-6">
 
                         <div class="search-student-btn">
-                            <a href="{{ url('admin/cms/blogs/create') }}" class="btn btn-primary">Add New
+                            <a href="{{ url('admin/blogs/create') }}" class="btn btn-primary">Add New
                                 Blog</a>
                         </div>
 

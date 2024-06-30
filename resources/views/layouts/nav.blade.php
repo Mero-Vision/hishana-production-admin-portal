@@ -31,38 +31,7 @@
     <ul class="nav user-menu">
 
 
-        {{-- <li class="nav-item dropdown noti-dropdown language-drop me-2">
-            <a href="#" class="dropdown-toggle nav-link header-nav-list" data-bs-toggle="dropdown">
-                @if ($lang->lang == 'en')
-                    <img src="{{ url('assets/admin/img/languages/usa.png') }}" alt style="max-width: 30px;">
-                @else
-                    <img src="{{ url('assets/admin/img/languages/nepal.png') }}" alt style="max-width: 30px;">
-                @endif
-
-            </a>
-            <div class="dropdown-menu ">
-                <div class="noti-content">
-                    <div>
-                        <a class="dropdown-item" href="{{ url('locale/en') }}"><img
-                                src="{{ url('assets/admin/img/languages/usa.png') }}" alt style="max-width: 30px;"
-                                class="mx-2"> English</a>
-                        <a class="dropdown-item" href="{{ url('locale/ne') }}"><img
-                                src="{{ url('assets/admin/img/languages/nepal.png') }}" alt style="max-width: 30px;"
-                                class="mx-2"> Nepali</a>
-
-                    </div>
-                </div>
-            </div>
-        </li> --}}
-
-         <li class="nav-item mt-2">
-            <iframe scrolling="no" border="0" frameborder="0" marginwidth="0" marginheight="0"
-                allowtransparency="true"
-                src="https://www.ashesh.com.np/linknepali-time.php?dwn=only&font_color=333333&font_size=14&bikram_sambat=0&api=731273n184"
-                width="120" height="23">
-            </iframe>
-        </li>
-
+        
         <li class="nav-item zoom-screen me-2">
             <a href="#" class="nav-link header-nav-list win-maximize">
                 <img src="{{ url('assets/img/header-icon-04.svg') }}" alt>

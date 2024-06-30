@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@include('admin_layouts.header')
-<link rel="stylesheet" href="{{ url('assets/css/fullcalendar.min.css') }}">
+@include('layouts.header')
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.7.1/css/buttons.dataTables.min.css">
 <script src="https://cdn.datatables.net/buttons/1.7.1/js/dataTables.buttons.min.js"></script>
@@ -17,10 +15,10 @@
 
     <div class="main-wrapper">
 
-        @include('admin_layouts.nav')
+        @include('layouts.nav')
 
 
-        @include('admin_layouts.sidebar')
+        @include('layouts.sidebar')
 
 
         <div class="page-wrapper">
@@ -42,7 +40,7 @@
                     <div class="col-sm-12">
                         <div class="card">
                             <div class="card-body">
-                                <form action="{{ url('admin/cms/blogs/create') }}" method="POST"
+                                <form action="{{ url('admin/blogs/create') }}" method="POST"
                                     enctype="multipart/form-data">
                                     @csrf
                                     <div class="card">
@@ -89,7 +87,8 @@
                                         </div>
                                         <div class=" blog-categories-btn pt-0">
                                             <div class="bank-details-btn ">
-                                                 <a href="{{url('admin/cms/blogs')}}" class="btn btn-primary">Return Back</a>
+                                                <a href="{{ url('admin/blogs') }}" class="btn btn-primary">Return
+                                                    Back</a>
                                                 <button type="submit" class="btn bank-cancel-btn me-2">Publish</button>
                                             </div>
                                         </div>
@@ -104,10 +103,7 @@
 
 
 
-
         <style>
-          
-
             #gallery_image {
                 text-align: center;
                 padding: 2%;
@@ -139,11 +135,10 @@
         </script>
 
 
-
-
-        @include('admin_layouts.footer2')
+        @include('layouts.footer2')
 
     </div>
+
     <script src="{{ url('assets/js/ckeditor.js') }}"></script>
     <script src="{{ url('assets/js/moment.min.js') }}"></script>
     <script src="{{ url('assets/js/bootstrap.bundle.min.js') }}"></script>
