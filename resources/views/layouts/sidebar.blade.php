@@ -15,6 +15,18 @@
 
                 </li>
 
+                <li class="submenu {{ request()->is('admin/settings*') ? 'active' : '' }}">
+                    <a href="#"><i class="fas fa-book"></i> <span> Site Settings</span> <span
+                            class="menu-arrow"></span></a>
+                    <ul>
+                        <li><a href="{{ url('admin/settings/general-settings') }}"
+                                class="{{ request()->is('admin/settings/general-settings') ? 'active' : '' }}">General Settings</a>
+                        </li>
+                       
+
+                    </ul>
+                </li>
+
             </ul>
         </div>
     </div>
