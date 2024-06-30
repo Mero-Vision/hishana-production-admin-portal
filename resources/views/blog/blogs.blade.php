@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-@include('admin_layouts.header')
-<link rel="stylesheet" href="{{ url('assets/css/fullcalendar.min.css') }}">
+@include('layouts.header')
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
-
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.7.1/css/buttons.dataTables.min.css">
 <script src="https://cdn.datatables.net/buttons/1.7.1/js/dataTables.buttons.min.js"></script>
@@ -16,10 +14,10 @@
 
     <div class="main-wrapper">
 
-        @include('admin_layouts.nav')
+        @include('layouts.nav')
 
 
-        @include('admin_layouts.sidebar')
+        @include('layouts.sidebar')
 
 
         <div class="page-wrapper">
@@ -30,7 +28,7 @@
                         <div class="col">
                             <h3 class="page-title">Blog List</h3>
                             <ul class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="{{ url('admin/dashboard') }}">@lang('translation.dashboard')</a>
+                                <li class="breadcrumb-item"><a href="{{ url('admin/dashboard') }}">Dashboard</a>
                                 </li>
                                 <li class="breadcrumb-item active">Blog List</li>
                             </ul>
@@ -80,7 +78,7 @@
                                                     <td>{{ $blog->title }}</td>
                                                     <td>
                                                         <?php
-                                                        $cleanDescription = strip_tags($blog->description); 
+                                                        $cleanDescription = strip_tags($blog->description);
                                                         $words = explode(' ', $cleanDescription);
                                                         $shortDescription = implode(' ', array_slice($words, 0, 15));
                                                         echo strlen($cleanDescription) > 15 ? $shortDescription . '...' : $cleanDescription;
@@ -143,7 +141,7 @@
         </script>
 
 
-        @include('admin_layouts.footer2')
+        @include('layouts.footer2')
 
     </div>
 

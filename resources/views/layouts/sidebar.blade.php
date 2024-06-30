@@ -10,11 +10,11 @@
                            Dashboard</span></a>
 
                 </li>
-                {{-- <li class="{{ request()->is('admin/users*') ? 'active' : '' }}">
-                    <a href="{{ url('admin/users') }}"><i class='bx bxs-user'></i> <span> User Management</span></a>
+               <li class="{{ request()->is('admin/blogs*') ? 'active' : '' }}">
+                    <a href="{{ url('admin/blogs') }}"><i class="bi bi-substack"></i> <span> Blogs</span></a>
 
                 </li>
-
+ {{-- 
                 <li class="submenu {{ request()->is('admin/cms*') ? 'active' : '' }}">
                     <a href="#"><i class="fas fa-book"></i> <span> @lang('translation.cms')</span> <span
                             class="menu-arrow"></span></a>
