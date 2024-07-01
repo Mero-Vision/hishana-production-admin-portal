@@ -11,11 +11,11 @@ class SiteSetting extends BaseModel
 
     public static $keys = [
 
-        "school_name" => [
+        "title" => [
             "type" => "text",
             "element" => "text",
             "visible" => 1,
-            "display_text" => "School Name"
+            "display_text" => "Title"
         ],
 
 

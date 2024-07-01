@@ -54,19 +54,19 @@
                     <div class="col-md-6">
                         <div class="card">
                             <div class="card-header">
-                                <h5 class="card-title">School Basic Details</h5>
+                                <h5 class="card-title">Basic Details</h5>
                             </div>
                             <div class="card-body pt-0">
                                 <form action="{{url('admin/settings/site-settings')}}" method="POST">
                                     @csrf
                                     <div class="settings-form">
                                         <div class="form-group">
-                                            <label>School Name <span class="star-red">*</span></label>
-                                            @if (isset($data['school_name']))
-                                                <input type="text" value="{{ $data['school_name'] }}"
-                                                    class="form-control" name="school_name" />
+                                            <label>Title <span class="star-red">*</span></label>
+                                            @if (isset($data['title']))
+                                                <input type="text" value="{{ $data['title'] }}"
+                                                    class="form-control" name="title" />
                                             @else
-                                                <input type="text" class="form-control" name="school_name" />
+                                                <input type="text" class="form-control" name="title" />
                                             @endif
                                         </div>
 
