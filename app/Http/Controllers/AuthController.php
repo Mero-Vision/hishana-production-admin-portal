@@ -39,4 +39,18 @@ class AuthController extends Controller
             return back()->with('error', $e->getMessage());
         }
     }
+
+    public function logout(Request $request)
+    {
+        $user = $request->user();
+        if ($user) {
+            auth()->logout();
+
+            sweetalert()->addSuccess('Logout Successfully!');
+            return redirect('/');
+        } else {
+            sweetalert()->addWarning('User is not authenticated!');
+            return redirect('/');
+        }
+    }
 }
